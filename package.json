@@ -1,4 +1,5 @@
 {
+  "homepage": "https://julian1david.github.io/lazy-loading-example",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

@@ -5,6 +5,8 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: '',
+    out: 'docs',
+    metaUrlPath: 'snowpack',
+    baseUrl: 'https://julian1david.github.io/lazy-loading-example',
   },
 }
