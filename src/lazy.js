@@ -14,6 +14,7 @@ const isIntersecting = (intersectionEntry) => intersectionEntry.isIntersecting;
 const loadImage = (entry) => {
     const imgNode = entry.target; //El nodo es el  div
     //const imagen = imgNodeDad.firstChild;
+    console.log(imgNode);
     const url = imgNode.dataset.src;
     
     //cargue imagen
